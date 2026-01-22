@@ -15,7 +15,7 @@
     <nav class="navbar bg-dark border-bottom border-body navbar-expand-lg" data-bs-theme="dark">
         <div class="container-fluid">
             <a class="navbar-brand" href="#"><img src="./img 3/duck.png" width="50" alt=""></a>
-            <button class="navbar-toggler border-light" type="button" data-bs-toggle="collapse"
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -66,18 +66,18 @@
                 <table class="table table-striped table-hover">
                     <thead>
                         <tr>
-                            <th scope="col" colspan="2">Titolo</th>
-                            <th class="col d-none d-md-table-cell">Data Prestito</th>
+                            <th scope="col">Titolo</th>
+                            <th scope="col" class="d-none d-md-table-cell">Data Prestito</th>
                             <th scope="col">Stato</th>
-                            <th scope="col text-center">Azioni</th>
+                            <th scope="col" class="text-center">Azioni</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
-                            <th scope="row" colspan="2">I pilastri della terra</th>
-                            <td class="col d-none d-md-table-cell">-</td>
-                            <td class="col"><span class="badge text-bg-success">Disponibile</span></td>
-                            <td class="col">
+                            <td>I pilastri della terra</td>
+                            <td class="d-none d-md-table-cell">-</td>
+                            <td><span class="badge text-bg-success">Disponibile</span></td>
+                            <td class="d-flex gap-1">
                                 <button type="button" class="btn border border-secondary"><i
                                         class="bi bi-pencil-fill"></i></button>
                                 <button type="button" class="btn border border-secondary"><i
@@ -85,10 +85,10 @@
                             </td>
                         </tr>
                         <tr>
-                            <th scope="row" colspan="2">I promessi sposi</th>
-                            <td class="col d-none d-md-table-cell">-</td>
-                            <td class="col"><span class="badge text-bg-success">Disponibile</span></td>
-                            <td class="col">
+                            <td scope="row">I promessi sposi</td>
+                            <td class="d-none d-md-table-cell">-</td>
+                            <td><span class="badge text-bg-success">Disponibile</span></td>
+                            <td class="d-flex gap-1">
                                 <button type="button" class="btn border border-secondary"><i
                                         class="bi bi-pencil-fill"></i></button>
                                 <button type="button" class="btn border border-secondary"><i
@@ -96,10 +96,10 @@
                             </td>
                         </tr>
                         <tr>
-                            <th scope="row" colspan="2">Il Signore degli anelli</th>
-                            <td class="col d-none d-md-table-cell">18/10/2023</td>
-                            <td class="col"><span class="badge text-bg-warning text-light">In prestito</span></td>
-                            <td class="col">
+                            <td scope="row">Il Signore degli anelli</td>
+                            <td class="d-none d-md-table-cell">18/10/2023</td>
+                            <td><span class="badge text-bg-warning text-light">In prestito</span></td>
+                            <td class="d-flex gap-1">
                                 <button type="button" class="btn border border-secondary"><i
                                         class="bi bi-pencil-fill"></i></button>
                                 <button type="button" class="btn border border-secondary"><i
@@ -107,10 +107,10 @@
                             </td>
                         </tr>
                         <tr>
-                            <th scope="row" colspan="2">I Harry Potter e la pietra Filosofale</th>
-                            <td class="col d-none d-md-table-cell">-</td>
-                            <td class="col"><span class="badge text-bg-success">Disponibile</span></td>
-                            <td class="col">
+                            <td scope="row">I Harry Potter e la pietra Filosofale</td>
+                            <td class="d-none d-md-table-cell">-</td>
+                            <td><span class="badge text-bg-success">Disponibile</span></td>
+                            <td class="d-flex gap-1">
                                 <button type="button" class="btn border border-secondary"><i
                                         class="bi bi-pencil-fill"></i></button>
                                 <button type="button" class="btn border border-secondary"><i
@@ -118,10 +118,10 @@
                             </td>
                         </tr>
                         <tr>
-                            <th scope="row" colspan="2">Il codice Da Vinci</th>
-                            <td class="col d-none d-md-table-cell">-</td>
-                            <td class="col"><span class="badge text-bg-danger text-light">Non disponibile</span></td>
-                            <td class="col">
+                            <td scope="row">Il codice Da Vinci</td>
+                            <td class="d-none d-md-table-cell">-</td>
+                            <td><span class="badge text-bg-danger text-light">Non disponibile</span></td>
+                            <td class="d-flex gap-1">
                                 <button type="button" class="btn border border-secondary"><i
                                         class="bi bi-pencil-fill"></i></button>
                                 <button type="button" class="btn border border-secondary"><i
@@ -129,10 +129,10 @@
                             </td>
                         </tr>
                         <tr>
-                            <th scope="row" colspan="2">Shining</th>
-                            <td class="col d-none d-md-table-cell">-</td>
-                            <td class="col"><span class="badge text-bg-success">Disponibile</span></td>
-                            <td class="col">
+                            <td scope="row">Shining</td>
+                            <td class="d-none d-md-table-cell">-</td>
+                            <td><span class="badge text-bg-success">Disponibile</span></td>
+                            <td class="d-flex gap-1">
                                 <button type="button" class="btn border border-secondary"><i
                                         class="bi bi-pencil-fill"></i></button>
                                 <button type="button" class="btn border border-secondary"><i
@@ -140,11 +140,10 @@
                             </td>
                         </tr>
                         <tr>
-                            <th scope="row" colspan="2">La divina commedia</th>
-                            <td class="col d-none d-md-table-cell">21/09/2023</td>
-                            <td class="col"><span class="badge text-bg-warning text-light">Disponibile</span></td>
-
-                            <td class="col">
+                            <td scope="row">La divina commedia</td>
+                            <td class="d-none d-md-table-cell">21/09/2023</td>
+                            <td><span class="badge text-bg-warning text-light">Disponibile</span></td>
+                            <td class="d-flex gap-1">
                                 <button type="button" class="btn border border-secondary"><i
                                         class="bi bi-pencil-fill"></i></button>
                                 <button type="button" class="btn border border-secondary"><i
@@ -152,10 +151,10 @@
                             </td>
                         </tr>
                         <tr>
-                            <th scope="row" colspan="2">Il trono di spade</th>
-                            <td class="col d-none d-md-table-cell">-</td>
-                            <td class="col"><span class="badge text-bg-success">Disponibile</span></td>
-                            <td class="col">
+                            <td scope="row">Il trono di spade</td>
+                            <td class="d-none d-md-table-cell">-</td>
+                            <td><span class="badge text-bg-success">Disponibile</span></td>
+                            <td class="d-flex gap-1">
                                 <button type="button" class="btn border border-secondary"><i
                                         class="bi bi-pencil-fill"></i></button>
                                 <button type="button" class="btn border border-secondary"><i
@@ -163,10 +162,10 @@
                             </td>
                         </tr>
                         <tr>
-                            <th scope="row" colspan="2">Il mondo di Sofia</th>
-                            <td class="col d-none d-md-table-cell">-</td>
-                            <td class="col"><span class="badge text-bg-danger text-light">Non disponibile</span></td>
-                            <td class="col">
+                            <td scope="row">Il mondo di Sofia</td>
+                            <td class="d-none d-md-table-cell">-</td>
+                            <td><span class="badge text-bg-danger text-light">Non disponibile</span></td>
+                            <td class="d-flex gap-1">
                                 <button type="button" class="btn border border-secondary"><i
                                         class="bi bi-pencil-fill"></i></button>
                                 <button type="button" class="btn border border-secondary"><i
@@ -174,10 +173,10 @@
                             </td>
                         </tr>
                         <tr>
-                            <th scope="row" colspan="2">Le Cronache di Narnia: il leone, la strega e l'armadio</th>
-                            <td class="col d-none d-md-table-cell">25/07/2027</td>
-                            <td class="col"><span class="badge text-bg-warning text-light">Disponibile</span></td>
-                            <td class="col">
+                            <td scope="row">Le Cronache di Narnia: il leone, la strega e l'armadio</td>
+                            <td class="d-none d-md-table-cell">25/07/2027</td>
+                            <td><span class="badge text-bg-warning text-light">Disponibile</span></td>
+                            <td class="d-flex gap-1">
                                 <button type="button" class="btn border border-secondary"><i
                                         class="bi bi-pencil-fill"></i></button>
                                 <button type="button" class="btn border border-secondary"><i
@@ -185,10 +184,10 @@
                             </td>
                         </tr>
                         <tr>
-                            <th scope="row" colspan="2">Il piccolo principe</th>
-                            <td class="col d-none d-md-table-cell">-</td>
-                            <td class="col"><span class="badge text-bg-success">Disponibile</span></td>
-                            <td class="col">
+                            <td scope="row">Il piccolo principe</td>
+                            <td class="d-none d-md-table-cell">-</td>
+                            <td><span class="badge text-bg-success">Disponibile</span></td>
+                            <td class="d-flex gap-1">
                                 <button type="button" class="btn border border-secondary"><i
                                         class="bi bi-pencil-fill"></i></button>
                                 <button type="button" class="btn border border-secondary"><i
@@ -196,10 +195,10 @@
                             </td>
                         </tr>
                         <tr>
-                            <th scope="row" colspan="2">La storia infinita</th>
-                            <td class="col d-none d-md-table-cell">-</td>
-                            <td class="col"><span class="badge text-bg-success">Disponibile</span></td>
-                            <td class="col">
+                            <td scope="row">La storia infinita</td>
+                            <td class="d-none d-md-table-cell">-</td>
+                            <td><span class="badge text-bg-success">Disponibile</span></td>
+                            <td class="d-flex gap-1">
                                 <button type="button" class="btn border border-secondary"><i
                                         class="bi bi-pencil-fill"></i></button>
                                 <button type="button" class="btn border border-secondary"><i
@@ -238,7 +237,7 @@
 
                 <!--F.A.Q.-->
 
-                <div class="card mt-4 mb-4" style="">
+                <div class="card mt-4 mb-4">
                     <div class="card-header">
                         F.A.Q.
                     </div>
